@@ -34,3 +34,93 @@ body {
 .clearfix {
     *zoom: 1;
 }
+
+/***************************************************
+        demo css styling
+
+        Layout
+
+criteria:
+margin 10px between outter edges and boxes (red and blue)
+margin 10px between the boxes (red nad blue)
+footer 10px margin
+
+calculations:
+960 = (lm + lb + lp + content + rp + rb + rm) + (lm + lb + lp + content + rp + rb + rm)
+960 = (10 + 0 + 0 + Content + 0 + 0 + 0) + (10 + 0 + 0 + Content + 0 + 0 + 0) + 10
+960 = 30 + 2 * Content
+960 - 30 = 2 * Content
+930 / 2 = Content
+465 = Content
+
+960 = (lm + lb + lp + content + rp + rb + rm)
+960 = (10 + 0 + 0 + Content + 0 + 0 + 10)
+960 = 20 + content
+960 - 20 = content
+940 = content
+****************************************************/
+
+/***************************************************
+default display of elements on your page is called "stacked"
+to get your element on the same line we use something called flexbox
+to invoke flexbox use the rule:
+        display: flex;
+flexbox attempts to place all element within its "specified container area"
+    on the same line
+flexbox will automatically adjust measurements to get all elements
+    to appear on the same line
+
+problem: I don't want all elements on the same line
+         I don't want my measurements adjusted
+solution: 
+    use flex-wrap: wrap;
+    this will place as many elements as possible on a single row
+        without adjusting the measurements of your element, and
+        any leftover elements will wrap to the following line
+        until all elements have been displayed
+***************************************************/
+
+main{
+    background-color: lightgrey;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*************
+    since there is no actual content we will
+    simulate the content with a fixed height
+    value of 300px
+
+div{
+    margin-left: 10px;
+    width: 465px;
+    height: 300px;
+}
+************/
+
+main > div{
+    height: 200px;
+    width: 465px;
+    margin: 10px 0 10px 10px;
+}
+
+.red-paint{
+    background-color: red;
+}
+
+.blue-paint{
+    background-color: blue;
+}
+
+.black-paint{
+    background-color: black;
+    width: 940px;
+    height: 50px;
+    margin: 0px 10px 10px 10px;
+}
+
+footer{
+    background-color: lightgrey;
+    height: 60px;
+    display: flex;
+}
