@@ -9,6 +9,14 @@ body{
     line-height: 1.5;
 }
 
+h1 {
+	text-align: center;
+	font-weight: 600;
+	font-family: Helvetica, Verdana, sans-serif;
+	font-size: 36px;
+	margin: 30px 0;
+}
+
 main{
     background-color: lightgrey;
     display: flex;
@@ -31,11 +39,11 @@ main{
 .blue-paint{
 	background-color: blue;
     height: 293px;
-    width: 770px;
+    width: 768px;
 }
 
 .yellow-paint{
 	background-color: yellow;
     height: 293px;
-    width: 770px;
+    width: 768px;
 }
