@@ -8,3 +8,34 @@ body{
     font-size: 100;
     line-height: 1.5;
 }
+
+main{
+    background-color: lightgrey;
+    display: flex;
+	border: 2px solid black;
+}
+
+.boxsize{
+    height: 300px;
+    width: 301.333px;
+    margin: 10px 0px 10px 10px;
+	border: 2px solid black;
+}
+
+.red-paint{
+	background-color: red;
+    height: 600px;
+    width: 150px;
+}
+
+.blue-paint{
+	background-color: blue;
+    height: 293px;
+    width: 770px;
+}
+
+.yellow-paint{
+	background-color: yellow;
+    height: 293px;
+    width: 770px;
+}
