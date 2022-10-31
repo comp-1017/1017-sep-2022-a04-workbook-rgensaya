@@ -78,6 +78,8 @@ solution:
         without adjusting the measurements of your element, and
         any leftover elements will wrap to the following line
         until all elements have been displayed
+    flex-wrap affects a flex display area, without the display: fle;
+        flex-wrap is meaningless.
 ***************************************************/
 
 main{

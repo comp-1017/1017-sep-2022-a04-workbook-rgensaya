@@ -24,16 +24,12 @@ h1 {
 main{
     background-color: lightgrey;
     display: flex;
-	border: 2px solid black;
 }
 
-
-
 main > div{
-    height: 300px;
-    width: 301.333px;
+    height: 200px;
+    width: 465px;
     margin: 10px 0px 10px 10px;
-	border: 2px solid black;
 }
 
 .red-paint{
