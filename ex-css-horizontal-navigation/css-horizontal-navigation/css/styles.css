@@ -22,24 +22,25 @@ body {
 
 nav ul {
     display: flex;
-    margin-left: 150px;
+    margin-left: 245px;
+    margin-right: 245px;
+    margin-top: 10px;
 }
 
 nav li {
-    margin: 0 24px;
     padding: 0 16px;
-    color: white;
 }
 
 nav ul li a {
-	display: inline-block;
-	text-decoration: none;
-	text-align: center;
     color: #fff;
+    text-decoration: none;
 }
 
-ul li a:hover {
-    
+nav ul li a:hover {
+	display: inline-block;
+    text-decoration: underline;
+	text-align: center;
+    color: #fff;
 }
 
 h1 {
