@@ -10,3 +10,51 @@ body {
     font-size: 100%;
     line-height: 1.5;
 }
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+input {
+    background-color: #fff;
+    border: 1px solid #000;
+    line-height: 30px;
+    padding: 12px;
+    width: 934px;
+}
+
+textarea {
+    background-color: #fff;
+    border: 1px sold #000;
+    line-height: 30px;
+    max-width: 934px;
+    min-width: 934px;
+    max-height: 150px;
+    min-height: 150px;
+    background-repeat: no-repeat;
+    padding: 12px;
+}
+
+label {
+    display: block;
+}
+
+.submit-button button {
+    display: flex;
+    margin-left: 378px;
+    margin-right: 378px;
+    width: 200;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.submit-button button:hover {
+    cursor: pointer;
+}
+
